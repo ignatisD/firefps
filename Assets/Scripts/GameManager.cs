@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour {
     // Make it a singleton
 
     [Header("Console Settings")]
-    public string serverAddress = "ignatisd.me";
+    public string serverAddress = "139.59.213.137";
     public string platform = "CONSOLE";
     public bool localOnly = false;
     public bool localMode = false;

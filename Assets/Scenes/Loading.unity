@@ -336,9 +336,9 @@ MonoBehaviour:
     value: {x: 0, y: 0, z: 0}
     space: 1
   rotateDegreesPerSecond:
-    value: {x: 0, y: 0, z: 360}
+    value: {x: 0, y: 0, z: 0}
     space: 1
-  ignoreTimescale: 1
+  ignoreTimescale: 0
 --- !u!114 &524129090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -657,7 +657,7 @@ Prefab:
     - target: {fileID: 114257980760042682, guid: d45b84b5a0d6ef8428207c455e0aebac,
         type: 2}
       propertyPath: platform
-      value: CONSOLE
+      value: WEB
       objectReference: {fileID: 0}
     - target: {fileID: 114257980760042682, guid: d45b84b5a0d6ef8428207c455e0aebac,
         type: 2}
@@ -677,7 +677,7 @@ Prefab:
     - target: {fileID: 114257980760042682, guid: d45b84b5a0d6ef8428207c455e0aebac,
         type: 2}
       propertyPath: serverAddress
-      value: ignatisd.me
+      value: 139.59.213.137
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d45b84b5a0d6ef8428207c455e0aebac, type: 2}

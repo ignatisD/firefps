@@ -52,12 +52,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ea3e5f53bcf2bd45a8fe768b06e390d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serverAddress: 139.59.213.137
+  platform: CONSOLE
+  localOnly: 0
+  localMode: 0
+  runAsServer: 0
+  loginScene: LoginMenu
   collidableEnvironement: collidableEnvironement
   matchSettings:
     respawnTime: 3
+    barrelNum: 10
+    floorScale: {x: 10, y: 1, z: 10}
+    thrusterForce: 1200
+    thrusterFuelBurnSpeed: 1
+    thrusterFuelRegenSpeed: 0.3
+    jointMaxForce: 20
   playerPrefabs:
   - {fileID: 1687368781056178, guid: f52b3e314cfaabe478e4b3a787de7d6d, type: 2}
-  - {fileID: 1672336418982194, guid: bb56d15fe158eec498dcbb3b3df41f50, type: 2}
+  - {fileID: 0}
   sceneCamera: {fileID: 0}
   localPlayer: {fileID: 0}
   defaultRespawnPosition: {x: 0, y: 0, z: 0}
